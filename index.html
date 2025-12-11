@@ -3,33 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Delivery Food</title>
   </head>
   <body>
-    <header id="header" class="header">
-      <div class="container">
-        <div class="header-box">
-          <div class="header-logo logo">
-            <img src="images/logo.png" alt="logo" />
+    <div class="page-wrapper">
+      <header id="header" class="header">
+        <div class="container">
+          <div class="header-box">
+            <div class="header-logo logo">
+              <img src="images/logo.png" alt="logo" />
+            </div>
+            <div class="header-controls">
+              <button class="btn btn-primary">
+                <img src="./images/icons/user.png" alt="user" />
+                Sign in
+              </button>
+              <button class="btn btn-outline">
+                <img
+                  src="./images/icons/shopping-cart.png"
+                  alt="shopping-cart"
+                />
+                Cart
+              </button>
+            </div>
           </div>
-          <div class="header-controls">controls</div>
         </div>
-      </div>
-    </header>
-    <main id="main" class="main">
-      <div class="container">Restoraunts</div>
-    </main>
-    <footer id="footer" class="footer">
-      <div class="container">
-        <div class="footer-box">
-          <div class="footer-logo logo">
-            <img src="images/logo.png" alt="logo" />
+      </header>
+      <main id="main" class="main">
+        <div class="container">
+          <section class="banner">
+            <div class="container">
+              <div class="banner-item">
+                <h2 class="banner-item--title">
+                  Order food <br />
+                  delivery to your home
+                </h2>
+                <p class="banner-item--subtitle">
+                  The courier will deliver food from your favorite restaurant,
+                  wearing gloves, a mask, and carrying hand sanitizer.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="products">
+            <div class="container">
+              <div class="products-header">
+                <h3 class="products-header--title">Restaurants</h3>
+                <input
+                  type="text"
+                  class="products-header--search"
+                  placeholder="Search for dishes and restaurants"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer id="footer" class="footer">
+        <div class="container">
+          <div class="footer-box">
+            <div class="footer-logo logo">
+              <img src="images/logo.png" alt="logo" />
+            </div>
+            <div class="footer-nav">
+              <ul>
+                <li>For Restaurants</li>
+                <li>For Couriers</li>
+                <li>Pressroom</li>
+                <li>Contacts</li>
+              </ul>
+            </div>
+            <div class="footer-social">
+              <img src="./images/social/INST.png" alt="instagram" />
+              <img src="./images/social/FB.png" alt="facebook" />
+              <img src="./images/social/VK.png" alt="VK" />
+            </div>
           </div>
-          <div class="footer-nav">nav</div>
-          <div class="footer-social">social</div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
