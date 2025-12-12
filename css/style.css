@@ -144,7 +144,7 @@ body {
 }
 
 .banner-item {
-  background-image: url(./images/banners/banner.png);
+  background-image: url(../images/banners/banner.png);
   background-color: #fff1b8;
   background-repeat: no-repeat;
   /* background-size: contain; */
@@ -197,7 +197,10 @@ body {
   background: #fff;
   opacity: 1;
   flex-shrink: 0;
-  padding: 5px 12px;
+  padding: 5px 12px 5px 32px;
+  background-image: url("../images/icons/search.png");
+  background-position: 8px 7px;
+  background-repeat: no-repeat;
 }
 
 .products-header--search:focus {
@@ -213,6 +216,7 @@ body {
   color: #bfbfbf;
   min-width: 262px;
   opacity: 1;
+  /* padding: 5px 4px 5px 12px; */
 }
 
 .products-wrapper {
@@ -365,7 +369,7 @@ body {
   justify-content: center;
 }
 
-.cart-modal__overlay:open {
+.cart-modal__overlay.open {
   display: flex;
 }
 
