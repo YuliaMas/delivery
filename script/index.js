@@ -80,7 +80,7 @@ const restsFunc = () => {
       title: "PizzaBurger",
       time: 50,
       rating: 4.5,
-      price: 900,
+      price: 9,
       type: "Pizza",
       image: "pizza-burger.jpg",
     },
